@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- CDNJS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- CSS Stylesheet Link -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./img/faisal.png" type="image/x-icon" />
+  <title>Faisal Protfolio</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo-container">
+        <div class="logo-items"><i class="fa-solid fa-code"></i></div>
+        <div class="logo-items">
+          <p>Fais Al</p>
+        </div>
+      </div>
+      <div class="nav-menu-container">
+        <li class="hamburger" onclick="showSidebar()">
+          <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+        </li>
+        <script>
+          function showSidebar() {
+            const sidebar = document.querySelector(".sidebar");
+            sidebar.style.display =
+              sidebar.style.display === "flex" ? "none" : "flex";
+          }
+          function showSidebar() {
+            const sidebar = document.querySelector(".sidebar");
+            sidebar.style.display =
+              sidebar.style.display === "flex" ? "none" : "flex";
+          }
+        </script>
+        <ul class="nav-menu">
+          <li class="nav-menu-items"><a href="index.html">Home</a></li>
+          <li class="nav-menu-items"><a href="#about">About</a></li>
+          <li class="nav-menu-items"><a href="#">Certification</a></li>
+          <li class="nav-menu-items"><a href="#skill">Skils</a></li>
+          <li class="nav-menu-items"><a href="#">Projects</a></li>
+          <li class="nav-menu-items"><a href="#">Contact</a></li>
+        </ul>
+        <ul class="sidebar">
+          <li class="close-button" onclick="showSidebar()">
+            <i class="fa-solid fa-xmark" style="color: #ffffff"></i>Close
+          </li>
+          <li class="nav-menu-items"><a href="index.html">Home</a></li>
+          <li class="nav-menu-items"><a href="#about">About</a></li>
+          <li class="nav-menu-items"><a href="#">Certification</a></li>
+          <li class="nav-menu-items"><a href="#skill">Skils</a></li>
+          <li class="nav-menu-items"><a href="#">Projects</a></li>
+          <li class="nav-menu-items"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-description">
+        <h1 class="hero-description-title">
+          Hi, I am <span class="title-span">Faisal</span>, <br />
+          Software <br />
+          <span class="title-span" id="border">Developer</span>
+        </h1>
+        <p class="hero-description-text">
+          I turn complex challenges into seamless digital experiences. As a
+          forward-thinking software developer, I blend creativity with
+          technical expertise to build solutions that not only meet but exceed
+          expectations. Whether you're looking to innovate or optimize, I'm
+          here to transform your vision into reality. <br />
+          <br />
+          Let's create something amazing together!
+        </p>
+        <div class="hero-description-button">
+          <button>
+            <a href="#">Get in Touch</a>
+          </button>
+          <i class="fa-solid fa-arrow-right" style="color: #ffffff"></i>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="faisal-image">
+          <img class="hero-profile-image" src="./rsz_1faisal.png" alt="profile png" />
+        </div>
+        <img class="hero-shape" src="./graph (1).png" alt="" />
+        <div class="hero-download-button">
+          <button>
+            <a href="https://www.dropbox.com/scl/fi/ym20539uhye1c012x90kd/Faisal-CV.pdf?rlkey=u3munps309lc23nqee2euvmlm&st=qc6scsjm&dl=1"
+              download="Abdullah Al Faisal cv"> Download Resume</a>
+          </button>
+          <i class="fa-solid fa-download" style="color: #ffffff"></i>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------------- About Section --------------------------------->
+
+    <section class="about" id="about">
+      <div class="about-titles-wrapper">
+        <h2 class="about-title">About Me</h2>
+        <h4 class="about-sub-title">Who am I</h4>
+      </div>
+      <div class="about-middle">
+        <div class="social">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/abdullahal.faisal.7737/" target="_blank"><i
+                  class="fa-brands fa-square-facebook" style="color: #25ab75"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/abdullah-al-faisal-a57945279/?fbclid=IwY2xjawFrYcxleHRuA2FlbQIxMAABHf24Jh4VbWpLfgUo9X8B3kTLF_z8gNGrE9QWB2KbuVA02V2lTv1a7ydhUw_aem_-64p9vNI77ETmbukJyQk2w"
+                target="_blank">
+                <i class="fa-brands fa-linkedin-in" style="color: #25ab75"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/_nib_ras?fbclid=IwY2xjawFrYYdleHRuA2FlbQIxMAABHWRi6I-NvKnX8H_w2IHD4dUCdkn1XqLo7n6MXDWTwh8_Jp8s-jrh1dN6GA_aem_SkWnLs2CVhkNM44vo8Leow"
+                target="_blank">
+                <i class="fa-brands fa-instagram" style="color: #25ab75"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/abdullahalfaisal" target="_blank"><i class="fa-brands fa-github"
+                  style="color: #25ac75"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="about-profile-image">
+          <img src="./faisal yellow.jpg" alt="" />
+        </div>
+        <div class="about-container">
+          <div class="about-description">
+            <div class="about-header">
+              <h1>I'm a Professional and Experienced Software Developer</h1>
+            </div>
+            <div class="about-text">
+              <p>
+                I have a strong focus on creating intuitive and efficient
+                software solutions to meet the needs of clients and end-users.
+                When I'm not coding, I love to stay up-to-date with the latest
+                technology trends and imporiving my skills. I'm always eager
+                to take new challenges and work with a team to deliver
+                exceptional results.
+              </p>
+            </div>
+          </div>
+          <button class="about-button">
+            <a href="#">Know More</a>
+          </button>
+        </div>
+      </div>
+
+    </section>
+    <section class="skill" id="skill">
+      <h1>Programming Languages</h1>
+      <ul skill-bar>
+        <li>
+          <h3>html</h3>
+          <span class="bar"><span class="html"></span></span>
+        </li>
+        <li>
+          <h3>Css</h3>
+          <span class="bar"><span class="css"></span></span>
+        </li>
+        <li>
+          <h3>C++</h3>
+          <span class="bar"><span class="cpp"></span></span>
+        </li>
+        <li>
+          <h3>Python</h3>
+          <span class="bar"><span class="python"></span></span>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+
+</html>
